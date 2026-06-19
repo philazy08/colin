@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Colin Gil Hägeli - Grafikdesign</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="site-shell" id="landing">
+      <header class="topbar">
+        <a class="brand" href="#landing" aria-label="Startseite">
+          <span>Colin Gil Hägeli</span>
+          <span>Grafikdesign</span>
+        </a>
+        <nav class="nav" aria-label="Hauptnavigation">
+          <a href="#projects">Projekte</a>
+          <a href="#about">About</a>
+        </nav>
+      </header>
+
+      <section class="intro" id="about">
+        <p>
+          Ciao! Ich bin Colin Gil Hägeli - freischaffender Grafikdesigner aus Luzern.
+          Mein Fokus liegt auf starker Aufmerksamkeit, Branding und präziser visueller
+          Gestaltung. Ich entwickle visuelle Lösungen für Plakate, Kampagnen, digitale
+          Medien und Markenauftritte mit hohem Anspruch und klarer Wirkung.
+        </p>
+      </section>
+
+      <section class="project-copy" id="projects">
+        <h1>Projekte:</h1>
+        <p>
+          Egal ob Kampagne, Firmenjubiläum oder neues Branding - ich verleihe jedem
+          Projekt eine passende visuelle Form. Im Fokus steht nicht nur die Ästhetik,
+          sondern die klare Kommunikation von Inhalten durch Typografie, Farbe und Form.
+          Jedes Projekt wird individuell beurteilt und entsprechend umgesetzt. Hier
+          findest du eine Auswahl meiner Arbeiten.
+        </p>
+
+        <form class="categories" aria-label="Projektkategorien">
+          <span class="label">Kategorien:</span>
+          <label><input type="radio" name="cat" value="plakatdesign"> Plakatdesign</label>
+          <label><input type="radio" name="cat" value="editorial"> Editorial</label>
+          <label><input type="radio" name="cat" value="grafik-im-raum"> Grafik im Raum</label>
+          <label><input type="radio" name="cat" value="webdesign"> Webdesign</label>
+          <label><input type="radio" name="cat" value="all" checked> Alle Kategorien</label>
+          <label><input type="radio" name="cat" value="branding"> Branding</label>
+          <label><input type="radio" name="cat" value="kampagnendesign"> Kampagnendesign</label>
+          <label><input type="radio" name="cat" value="motion-design"> Motion Design</label>
+        </form>
+      </section>
+
+      <section class="project-grid" aria-label="Projektübersicht">
+        <a class="project-card project-card-featured" href="#project-detail" data-category="grafik-im-raum editorial">
+          <img src="assets/exhibition.jpg" alt="Ausstellung mit Besucherinnen vor kreisförmigen Infografiken">
+          <span class="project-card-copy">
+            <span class="project-card-title">Erschreckend Schöne Bilder</span>
+            <span class="project-card-meta">Grafik im Raum / Editorial</span>
+            <span class="project-card-text">Klimaprognosen werden als klare, visuelle Zeichen im Ausstellungsraum lesbar gemacht.</span>
+          </span>
+        </a>
+
+        <article class="project-card" data-category="plakatdesign">
+          <img src="assets/dummy-plakat.jpg" alt="Bunte Plakatserie mit Streifen und Kreisformen">
+          <div class="project-card-copy">
+            <h2>Stadtklang 26</h2>
+            <p class="project-card-meta">Plakatdesign</p>
+            <p>Eine modulare Plakatserie für ein fiktives Kulturfestival mit starkem Rhythmus, Farbe und Fernwirkung.</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="branding">
+          <img src="assets/dummy-branding.jpg" alt="Branding-Anwendungen mit Karten, Zeichen und Farbflächen">
+          <div class="project-card-copy">
+            <h2>Atelier Nord</h2>
+            <p class="project-card-meta">Branding</p>
+            <p>Ein reduziertes Erscheinungsbild mit flexiblem Zeichen, klarer Typografie und markanten Anwendungen.</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="webdesign">
+          <img src="assets/dummy-web.jpg" alt="Webinterface mit farbigen Modulen und schwarzer Kopfleiste">
+          <div class="project-card-copy">
+            <h2>Mikroportal</h2>
+            <p class="project-card-meta">Webdesign</p>
+            <p>Ein kompaktes Interface-Konzept für ein digitales Archiv, gebaut aus wiederholbaren Modulen.</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="kampagnendesign plakatdesign">
+          <img src="assets/dummy-kampagne.jpg" alt="Kampagnenmotiv mit diagonalen Farbbändern und Typografie">
+          <div class="project-card-copy">
+            <h2>Raumkampagne</h2>
+            <p class="project-card-meta">Kampagnendesign / Plakatdesign</p>
+            <p>Eine fiktive städtische Kampagne, die Plakat, Social-Motive und digitale Teaser visuell verbindet.</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="motion-design">
+          <img src="assets/dummy-motion.jpg" alt="Dunkles Motionboard mit farbigen Frames und Bewegungslinien">
+          <div class="project-card-copy">
+            <h2>Loop Labor</h2>
+            <p class="project-card-meta">Motion Design</p>
+            <p>Eine kurze Sequenzsprache aus Farbflächen, wiederkehrenden Frames und prägnanten Übergängen.</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="editorial">
+          <img src="assets/project-book.jpg" alt="Editoriales Projekt mit kreisförmigen Illustrationen">
+          <div class="project-card-copy">
+            <h2>Tauwetter Reader</h2>
+            <p class="project-card-meta">Editorial</p>
+            <p>Ein Heftsystem mit ruhigem Satz, Bildstrecken und abstrahierten Zeichen für komplexe Inhalte.</p>
+          </div>
+        </article>
+      </section>
+
+      <a class="all-projects" href="#landing">
+        <span aria-hidden="true">←</span>
+        <span>Alle Projekte</span>
+      </a>
+
+      <footer class="contact">
+        <p>Kontakt:</p>
+        <p>→ colin.haegeli@yahoo.com</p>
+        <p>+41 76 830 91 15</p>
+      </footer>
+    </main>
+
+    <main class="site-shell detail" id="project-detail">
+      <header class="topbar">
+        <a class="brand" href="#landing" aria-label="Startseite">
+          <span>Colin Gil Hägeli</span>
+          <span>Grafikdesign</span>
+        </a>
+        <nav class="nav" aria-label="Hauptnavigation">
+          <a href="#projects">Projekte</a>
+          <a href="#about">About</a>
+        </nav>
+      </header>
+
+      <article class="project-detail-copy">
+        <h1>Erschreckend Schöne Bilder:</h1>
+        <p>
+          Mit meiner Umsetzung, vom Tauwetter möchte ich unsere Aussichten aufs Klima
+          prognostizieren. Diese katastrophale Situation, in der wir uns befinden,
+          ist alarmierend. Wir, Meine Klasse, Rafael und Jiri haben mit Prof. Dr.
+          Andreas Vieli die erschreckenden Klima Prognosen studiert und uns die Aufgabe
+          gestellt diese unlesbaren Fakten visuell schön zu zeigen. In facto genauso
+          wie es eigentlich nicht ist, aber die Schönheit der Plakate weckt ihre
+          Aufmerksamkeit. Die Ästhetik vermittelt mit den klaren Formen und Verläufen
+          genaue Prognosen und wann diese eintreffen werden. Mach dich auf was gefasst
+          und setzt dich fürs Klima ein.
+        </p>
+        <dl>
+          <div><dt>Arbeitgeber*in:</dt><dd>Uni Zürich</dd></div>
+          <div><dt>Entstehungsjahr:</dt><dd>2023</dd></div>
+          <div><dt>Zusammenarbeit:</dt><dd>Meine Klasse, Rafael Koch, Jiri Chemlik</dd></div>
+          <div><dt>Art:</dt><dd>Illustration, Plakatgestaltung, Redaktionelle Gestaltung</dd></div>
+        </dl>
+      </article>
+
+      <section class="detail-gallery" aria-label="Projektbilder">
+        <img class="wide" src="assets/exhibition.jpg" alt="Ausstellungsansicht">
+        <div class="book-row">
+          <img src="assets/project-book.jpg" alt="Editoriales Projekt mit kreisförmigen Illustrationen">
+          <img src="assets/project-book.jpg" alt="Offenes Buch mit Infografiken">
+        </div>
+        <img class="wide book-bottom" src="assets/project-book.jpg" alt="Buchdoppelseite mit Text und Grafiken">
+      </section>
+
+      <a class="all-projects" href="#landing">
+        <span aria-hidden="true">←</span>
+        <span>Alle Projekte</span>
+      </a>
+
+      <footer class="contact">
+        <p>Kontakt:</p>
+        <p>→ colin.haegeli@yahoo.com</p>
+        <p>+41 76 830 91 15</p>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
